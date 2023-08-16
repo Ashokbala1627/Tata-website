@@ -1,0 +1,225 @@
+/* Reset page */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* Reset background */
+body {
+  background-color: black;
+}
+/* width set 1st option*/
+.top-nav {
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  justify-content: space-evenly;
+  min-width: 50%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+.top-nav ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  list-style-type: none;
+}
+nav a:hover {
+  background-color: rgba(80, 80, 79, 0.727);
+  text-decoration: none;
+  padding: 2px;
+  font-size: 20px;
+  border-radius: 10%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* 2nd option */
+.box1 .navbar {
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 15px;
+  margin: auto;
+  list-style-type: none;
+  text-align: center;
+  justify-content: space-between;
+}
+.navbar:hover {
+  background-color: red;
+  font-size: 16px;
+}
+.navbar a:hover {
+  background-color: white;
+  color: red;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 16px;
+}
+/* card effects */
+main {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  justify-content: space-around;
+}
+.card {
+  margin-top: 10px;
+  max-width: 15%;
+  min-width: 150px;
+  min-height: 250px;
+  padding: 10px;
+}
+.card:hover {
+  align-items: center;
+  background-color: rgba(143, 205, 219);
+  color: yellow;
+}
+.title {
+  text-align: center;
+  width: 100%;
+  font-size: 100%;
+}
+/* form */
+label {
+  color: white;
+  font-size: 20px;
+  margin-left: 2.5%;
+}
+/* video */
+video {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+hr {
+  color: white;
+}
+/* /* car review */
+.row {
+  width: 100%;
+  margin: auto;
+}
+.left {
+  float: left;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.btncrp {
+  text-align: center;
+  margin: auto;
+}
+/* features img text*/
+.features {
+  width: 98%;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+.f {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  text-align: right;
+}
+.box-text {
+  padding: 10px;
+  float: right;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 100%;
+  text-align: left;
+}
+.features1 {
+  border: 1px solid white;
+  width: 98%;
+  margin-top: 10px;
+}
+.full {
+  padding: 10px;
+  width: 70%;
+  float: left;
+}
+.fi {
+  padding: 10px;
+  line-height: 200%;
+}
+.box4 {
+  width: 98%;
+  height: 400px;
+  object-fit: cover;
+}
+.g {
+  white-space: nowrap;
+}
+/* footer */
+form {
+  margin-top: 270px;
+  /* background-color: rgba(0, 0, 0, 0.496); */
+  background-color: rgba(242, 242, 242, 0.496);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.develop {
+  background-color: rgb(249, 242, 234);
+  text-align: center;
+  justify-content: center;
+}
+.mini {
+  margin-top: 10px;
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+}
+/* Over */
+
+/* media query */
+@media all and (max-width:576px) and (min-width: 200px){
+  .box-text,
+  .full,
+  .f,
+  .left {
+    width: 100%;
+    text-align: left;
+  }
+  .review4 {
+    width: 20%;
+  }
+  .uimg {
+    width: 20%;
+  }
+  .max-wid{
+    width:15%;
+  }
+  .max-wid1{
+    width: 15%;
+  }
+}
+@media screen and (max-width:394px){
+  form{
+    margin-top: 300px;
+  }
+
+} 
+@media all and (max-width:431px){
+  .btn {
+    margin-bottom:10px;
+    text-align: center;
+  }
+  .max-wid{
+    width:20%;
+  }
+  .max-wid1{
+    width: 15%;
+  }
+}
